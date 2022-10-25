@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        width: 200px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .selected-card {
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .pic {
+        width: 100px;
+        height: 100px;
+    }
+    .name {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .info {
+        font-size: 0.75rem;
+    }
+    
+  }
